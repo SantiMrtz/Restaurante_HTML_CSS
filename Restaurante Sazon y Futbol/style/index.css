@@ -1,0 +1,245 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background-image: url(../images/patron1.jpg);
+	background-color: black;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+body{
+	width: 1500px;
+	height: 2145px;
+	margin: 0px auto;
+	background-color: rgba(00, 000, 00,0.8);
+}
+header{
+	height: 220px;
+	background-color: black;
+}
+#header{
+	height: 220px;
+	width: 97px;
+	background-image: url(../images/redes.png);
+	float:right;
+}
+.imgh{
+	padding: 9px 0 0 0;
+}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 500px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: orange; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+	#nav{
+	width: 1500px;
+	height: 50px;
+	background-image: url(../images/nav.png);
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+#li{
+	list-style-type: none;
+	display: inline-block;
+}
+#imgnav{
+	width: 180px;
+	height: 46px;
+	margin-right: 66px;
+	background-image: url(../images/nav.png);
+}
+#sec0{
+	width: 240px;
+	height: 381px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	padding: 45px 0 0 13px;
+}
+#sec1{
+	width: 974px;
+	height: 372px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	padding: 27px 10px;
+}
+#sec2{
+	width: 240px;
+	height: 381px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	padding: 45px 13px 0 0;
+}
+#section{
+	width: 1500px;
+	height: 400px;
+	background-color: rgba(196, 176, 29,0.9);
+}
+.linea{
+	width: 1500px;
+	height: 3px;
+	background-color: rgba(196, 176, 29,0.9);
+	float: left;
+}
+.titulo{
+	width: 1125px;
+	height: 55px;
+	float: left;
+	background-image: url(../images/nav.png);
+	padding: 0 0 0 375px;
+}
+#sec3{
+	width: 450px;
+	height: 450px;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+}
+#sec4{
+	width: 850px;
+	height: 450px;
+	background-color: green;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+}
+#imgh{
+	padding: 40px 0 0 0;
+}
+#p{
+	padding: 10px 60px 0 10px;
+	font-family: calibri;
+	font-size: 22px;
+	text-align: justify;
+	color: white;
+}
+#aside{
+	width: 200px;
+	height: 900px;
+	float: right;
+	background-color: orange;
+}
+#caja1{
+	width: 420px;
+	height: 420px;
+	padding: 20px 0px 0px 20px;
+}
+#sec5{
+	width: 900px;
+	height: 470px;
+	float: left;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+}
+#sec6{
+	width: 650px;
+	height: 260px;
+	float: left;
+	background-color: black;
+	float: left;
+}
+#video{
+ padding: 30px 100px;
+}
+#receta{
+	padding: 20px 0px 0px 190px;
+}
+#p2{
+	padding: 10px 40px 0 60px;
+	font-family: calibri;
+	font-size: 22px;
+	text-align: justify;
+	color: white;	
+}
+#sec7{
+	width: 650px;
+	height: 260px;
+	float: left;
+	background-color: black;
+	float: left;
+}
+#sec8{
+	width: 650px;
+	height: 185px;
+	float: left;
+	background-color: black;
+	float: left;
+}
+#caja2{
+	width: 170px;
+	height: 170px;
+	padding: 0px 0px 0px 35px;
+	transition: width 2s, height 2s;
+	-webkit-transition: width 2s, height 2s,
+	-webkit-transform 2s;
+}
+#caja2:hover{
+	width: 160px;
+	height: 160px;
+	transform: rotate(360deg);
+}
+#all{
+	color: orange
+}
+#sec9{
+	width: 400px;
+	height: 470px;
+	float: left;
+	float: left;
+	background-color: rgba(0,0,0,0.6);}
+#imgy{
+	padding: 35px 0px 0px 90px;
+}
+#aside2{
+	width: 200px;
+	height: 469px;
+	float: right;
+	background-color: orange;
+}
+#pf{
+	padding: 13px;
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-size: 17px;
+}
+#footer{
+	width: 500px;
+	height: 155px;
+	float: left;
+	background-color: black;
+}

@@ -1,0 +1,195 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background-image: url(../images/patron1.jpg);
+	background-color: black;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+body{
+	width: 1500px;
+	height: 3500px;
+	margin: 0px auto;
+	background-color: rgba(00, 000, 00,0.8);
+}
+header{
+	height: 220px;
+	background-color: black;
+}
+#header{
+	height: 220px;
+	width: 97px;
+	background-image: url(../images/redes.png);
+	float:right;
+}
+.imgh{
+	padding: 9px 0 0 0;
+}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 500px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: orange; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+	#nav{
+	width: 1500px;
+	height: 50px;
+	background-image: url(../images/nav.png);
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+#li{
+	list-style-type: none;
+	display: inline-block;
+}
+#imgnav{
+	width: 180px;
+	height: 46px;
+	margin-right: 66px;
+	background-image: url(../images/nav.png);
+}
+#pf{
+	padding: 13px;
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-size: 17px;
+}
+#footer{
+	width: 500px;
+	height: 155px;
+	float: left;
+	background-color: black;
+}
+.linea{
+	width: 1500px;
+	height: 3px;
+	background-color: rgba(196, 176, 29,0.9);
+	float: left;
+}
+#sec1{
+	width: 500px;
+	height: 150px;
+	background-color: black;
+	float: left;
+}
+#sec2{
+	width: 500px;
+	height: 150px;
+	background-color: black;
+	float: left;
+}
+#sec3{
+	width: 500px;
+	height: 150px;
+	background-color: black;
+	float: left;
+}
+#imgg{
+	padding: 30px 0 0 0;
+}
+#sec11{
+	width: 500px;
+	height: 2900px;
+	float: left;
+	background-color: rgba(0,0,0,0.7);
+}
+#sec22{
+	width: 500px;
+	height: 2900px;
+	float: left;
+	background-color: rgba(255,255,255,0.1);
+}
+#sec33{
+	width: 500px;
+	height: 2900px;
+	float: left;
+	background-color: rgba(0,0,0,0.7);
+}
+#i{
+	width: 210px;
+	height: 150px;
+	padding: 0px 0px 0px 30px;
+	transition: width 2s, height 2s;
+	-webkit-transition: width 2s, height 2s,
+	-webkit-transform 2s;
+}
+#i:hover{
+	width: 210px;
+	height: 150px;
+	transform: rotate(360deg);
+}
+#d{
+	width: 210px;
+	height: 150px;
+	padding: 0px 30px 0px 0px;
+	transition: width 2s, height 2s;
+	-webkit-transition: width 2s, height 2s,
+	-webkit-transform 2s;
+}
+#d:hover{
+	width: 210px;
+	height: 150px;
+	transform: rotate(360deg);
+}
+#sec5{
+	width: 1500px;
+	height: 30px;
+	background-color: black;
+	float: left;
+}
+#p2{
+	font-family: calibri;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+#java{
+	width: 1500px;
+	height: 20px;
+	background-color: rgba(255,255,255,0.7);
+	float: left;
+}
+#secb{
+	width: 1500px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.7);
+	float: left;
+}
